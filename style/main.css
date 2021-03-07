@@ -37,7 +37,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #fff;
+    color:var(--vermelho);
 }
 
 /* elementos bas */ 
@@ -77,11 +77,11 @@ header nav a:hover {
 
     padding: 15px;
     cursor: pointer;
-    transition: 1s ease all ;
+    transition: 0.5s ease all ;
 }
 
 .botao:hover {
-    background-color: white;
+    background-color: var(--vermelho);
     color: black;
 }
 
